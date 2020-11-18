@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Cocis_Giorgia_Lab2.Data;
+using LibraryModel.Data;
 using Microsoft.EntityFrameworkCore;
 
 

@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Cocis_Giorgia_Lab2.Models;
+using LibraryModel.Models;
+using LibraryModel.Data;
 
 namespace Cocis_Giorgia_Lab2.Data
 {
@@ -78,7 +79,7 @@ namespace Cocis_Giorgia_Lab2.Data
 
             var publishedbooks = new PublishedBook[]
             {
-                new PublishedBook { BookID = books.Single(c => c.Title == "Maytrei" ).ID,PublisherID = publishers.Single(i => i.PublisherName =="Humanitas").ID},
+                new PublishedBook {BookID = books.Single(c => c.Title == "Maytrei" ).ID,PublisherID = publishers.Single(i => i.PublisherName =="Humanitas").ID},
                 new PublishedBook {BookID = books.Single(c => c.Title == "Enigma Otiliei" ).ID,PublisherID = publishers.Single(i => i.PublisherName =="Humanitas").ID },
                 new PublishedBook {BookID = books.Single(c => c.Title == "Baltagul" ).ID,PublisherID = publishers.Single(i => i.PublisherName =="Nemira").ID },
                 new PublishedBook {BookID = books.Single(c => c.Title == "Fata de hartie" ).ID,PublisherID = publishers.Single(i => i.PublisherName == "Paralela45").ID },

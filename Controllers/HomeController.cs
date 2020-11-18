@@ -5,10 +5,11 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using Cocis_Giorgia_Lab2.Models;
 using Microsoft.EntityFrameworkCore;
-using Cocis_Giorgia_Lab2.Data;
+using LibraryModel.Data;
+using LibraryModel.Models;
 using Cocis_Giorgia_Lab2.Models.LibraryViewModels;
+using Cocis_Giorgia_Lab2.Models;
 
 namespace Cocis_Giorgia_Lab2.Controllers
 {
